@@ -1,0 +1,37 @@
+Event Reservation Application System:
+
+Front-end requirements:
+  - HTML
+  - CSS
+  - JavaScript
+
+Back-end requirements:
+  - Node.js && Express.js
+  - MySQL || PostgreSQL
+
+
+TODO Objectives (01/09/2021):
+
+Prerequisites:
+1.) Initialize repo to GitHub repository (i.e. toxtlej1/Reservation_App)
+
+echo "# Reservation_App" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/toxtlej1/Reservation_App.git
+git push -u origin main
+
+Tools needed here: HTML && CSS
+
+1.) Develop webpage with a simple layout
+    - Home -> Link to return to home webpage
+    - Events -> List all current reservations
+    - Add Event -> Book a new event.
+
+
+2.) Once it works, use Node.js && Express.js to establish endpoints for said links.
+3.) Confirm it works by connecting testing CRUD operations. -> Use Terminal or Postman
+4.) After that, establish a domain name to connect to it -> Use Netlify or other free web hosting sites.
+5.) Confgure/Setup SQL DB to then store user's information (First && Last name), phone number, and email.
